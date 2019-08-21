@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>404</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<style>
+			html, body {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				border: 0;
+				color: black;
+				background-color: white;
+			}
+			#container {
+				width: 100%;
+				height: 100%;
+				-ms-flex-align: center;
+				display: flex;
+				-ms-flex-align: center;
+				align-items: center;
+				-ms-flex-pack: center;
+				justify-content: center;
+			}
+			#content {
+				text-align: center;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			h2 {
+				margin: 0;
+				font-weight: normal;
+			}
+			h4 {
+				margin: 0; margin-top: 8px;
+				font-weight: normal;
+			}
+			p {
+				margin: 0; margin-top: 4em;
+				color: gray;
+			}
+			a {
+				color: inherit;
+				text-decoration: none;
+			}
+			#back-container a {
+				color: #00a2ff;
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="content">
+				<img src="clip.png" width="400">
+				<h2>File Not Found</h2>
+				<h4>Try a different URL<span id="back-container">&nbsp;or <a href="/">go home</a></span></h4>
+				<p>Copyright &copy; 2019 <a href="https://jackm.xyz">Jack MacDougall</a>. Images provided by <a href="https://icons8.com">Icons8</a>.</p>
+			</div>
+		</div>
+		<script>
+			var container = document.getElementById('back-container');
+			if (document.referrer) {
+				container.innerHTML = '&nbsp;or <a href="' + document.referrer + '">go back</a>';
+			}
+		</script>
+	</body>
+</html>

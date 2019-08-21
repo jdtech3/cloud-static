@@ -1,2 +1,2 @@
 # cloud-static
-Static cloud pages.
+Static pages displayed on some of my websites.

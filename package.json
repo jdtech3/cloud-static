@@ -1,0 +1,22 @@
+{
+	"name": "cloud-static",
+	"version": "1.0.0",
+	"description": "Static pages displayed on some of my websites.",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "sh build.sh"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jackm-xyz/cloud-static.git"
+	},
+	"author": "Jack MacDougall",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jackm-xyz/cloud-static/issues"
+	},
+	"homepage": "https://github.com/jackm-xyz/cloud-static#readme",
+	"dependencies": {
+		"parcel": "^1.12.3"
+	}
+}
