@@ -8,14 +8,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jackm-xyz/cloud-static.git"
+		"url": "git+https://github.com/luawtf/cloud-static.git"
 	},
-	"author": "Jack MacDougall",
+	"author": "Jack MacDougall <luawhat@gmail.com> (https://lua.wtf/)",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/jackm-xyz/cloud-static/issues"
+		"url": "https://github.com/luawtf/cloud-static/issues"
 	},
-	"homepage": "https://github.com/jackm-xyz/cloud-static#readme",
+	"homepage": "https://github.com/luawtf/cloud-static#readme",
 	"dependencies": {
 		"parcel": "^1.12.3"
 	}
