@@ -1,8 +1,0 @@
-These sites use assets from Icons8.
-
-Splashes:
-https://icons8.com/ouch/style/clip
-Favicons:
-https://icons8.com/icon/pack/free-icons/material
-
-Big thanks to Icons8!

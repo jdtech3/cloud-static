@@ -1,9 +1,9 @@
 {
 	"name": "cloud-static",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Static pages displayed on some of my websites.",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "bash build.sh && serve bin",
 		"build": "bash build.sh"
 	},
 	"repository": {
@@ -17,6 +17,7 @@
 	},
 	"homepage": "https://github.com/luawtf/cloud-static#readme",
 	"dependencies": {
-		"parcel": "^1.12.3"
+		"parcel": "^1.12.3",
+		"serve": "^11.2.0"
 	}
 }

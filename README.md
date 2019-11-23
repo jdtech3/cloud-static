@@ -12,7 +12,7 @@ Executing these commands in the root folder will generate the `bin` output direc
 This directory contains all the compiled sites.
 
 ## Authors
-Made with ❤ by Jack MacDougall ([jackm.xyz](https://jackm.xyz/))
+Made with ❤ by Jack MacDougall ([lua.wtf](https://lua.wtf/))
 
 ## License
 This project is licensed under [MIT](LICENSE).
